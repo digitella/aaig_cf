@@ -79,7 +79,7 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "pwa-switcher": true,
-    "uniqCompNum": 2,
+    "uniqCompNum": 3,
     "versionPublish": "5.1.4",
     "screenshot": "screenshot.png"
   },
@@ -1111,6 +1111,49 @@
           "_anchor": "custom-html-1",
           "_PHPplaceholders": [],
           "_JSplaceholders": []
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-row": {
+              "justify-content": "center"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#7d8791"
+            },
+            ".mbr-text": {
+              "border-left": "1px solid currentColor",
+              "padding-left": "3rem",
+              "@media (max-width: 992px)": {
+                "border-left": "0px",
+                "padding-left": "0rem"
+              }
+            },
+            ".mbr-section-subtitle": {
+              "color": "#002c5b"
+            },
+            ".mbr-section-title": {
+              "color": "#7d8791"
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"content2\" group=\"Content\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container mbr-black\">\n        <div class=\"mbr-row\">\n            <div class=\"mbr-col-lg-5 mbr-col-md-12 mbr-col-sm-12\">\n                <h4 class=\"mbr-section-title mbr-fonts-style align-left mbr-bold\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">The Cost of Repair can be</h4>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-pb-2 align-left mbr-bold\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubTitle\">HUGE</h3>\n            </div>\n            <div class=\"mbr-col-lg-7 mbr-col-md-12 mbr-col-sm-12\">\n                <p class=\"mbr-fonts-style mbr-text mbr-semibold align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\">\n                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis rutrum metus, ut posuere\n                    neque. Fusce faucibus ex non justo pharetra tempus. Integer quam nibh molestie eleifend.</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sa9Q0Tt5ZC",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content2-2"
         },
         {
           "alias": false,
