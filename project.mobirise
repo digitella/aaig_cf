@@ -1100,8 +1100,8 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n[JS_CODE_0]\n\n<div class=\"spott-embed\" data-spott-id=\"03f395a3-a082-4a78-905b-43d4d91411cf\" data-reveal-type=\"static\" data-show-copyright=\"false\"></div>\n</div>",
-          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "_customHTML": "<!-- Type valid HTML here -->\n\n\n<div style=\"max-width:1600px\"><div style=\"width:100%;height:0;padding-bottom:calc(66.92708333333334% + 40px);position:relative\"><iframe style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;\" src=\"https://static-cdn.spott.ai/embed/?spottId=03f395a3-a082-4a78-905b-43d4d91411cf&amp;forwardOptions=&amp;closetSidebarBackground=&amp;closetSidebarOpenIconColor=&amp;showCopyright=false\" frameborder=\"0\" allowfullscreen=\"\" scrolling=\"no\"></iframe></div></div>\n",
+          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 10px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [
             "Theme"
@@ -1109,9 +1109,7 @@
           "_name": "pro.custom-html",
           "_anchor": "custom-html-1",
           "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script> (function(s,p,o,t,T){ T=p.getElementsByTagName('head')[0]; t=p.createElement('script');t.async=1;t.src=o; T.appendChild(t); })(window,document,'https://static-cdn.spott.ai/embed/embed.js'); </script>"
-          ]
+          "_JSplaceholders": []
         },
         {
           "alias": false,
