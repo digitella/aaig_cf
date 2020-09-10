@@ -1100,7 +1100,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n[JS_CODE_0]\n\n<div class=\"spott-embed\" data-spott-id=\"b6844c2a-7a5d-4979-bc13-6927df6dd090\" data-reveal-type=\"static\" data-show-copyright=\"false\"></div>\n</div>",
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n[JS_CODE_0]\n\n<div class=\"spott-embed\" data-spott-id=\"03f395a3-a082-4a78-905b-43d4d91411cf\" data-reveal-type=\"static\" data-show-copyright=\"false\"></div>\n</div>",
           "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [
