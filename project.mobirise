@@ -51,12 +51,6 @@
     "imageResize": true,
     "canonical-url": "https://aaig.helyx.ml",
     "cssOptimize": true,
-    "gdpr": {
-      "colorText": "#a7a7a7",
-      "colorLink": "#ff0e77",
-      "underlineLink": true,
-      "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='privacy.html'>Privacy Policy</a>."
-    },
     "global_header_custom": "<meta http-equiv=\"Pragma\" content=\"private\">\n<meta http-equiv=\"Cache-Control\" content=\"public\" />\n  <meta http-equiv=\"Cache-Control\" content=\"proxy-revalidate\" />\n<meta http-equiv=\"Cache-Control\" content=\"max-age=30000\"/>",
     "PWA": {
       "enabled": true,
@@ -73,18 +67,8 @@
     "uniqCompNum": 27,
     "versionPublish": "5.1.7",
     "screenshot": "screenshot.png",
-    "cookiesAlert": {
-      "customDialogSelector": false,
-      "colorText": "#ffffff",
-      "colorBg": "#000000",
-      "colorButton": "#ff0e77",
-      "colorLink": "#ff0e77",
-      "underlineLink": true,
-      "opacity": "91",
-      "opacityOverlay": "80",
-      "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
-      "textButton": "Agree"
-    }
+    "cookiesAlert": false,
+    "gdpr": false
   },
   "pages": {
     "index.html": {
