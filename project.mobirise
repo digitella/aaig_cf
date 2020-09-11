@@ -65,7 +65,8 @@
     "versionPublish": "5.1.7",
     "screenshot": "screenshot.png",
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "publishChangesOnly": true
   },
   "pages": {
     "index.html": {
@@ -1773,6 +1774,9 @@
             },
             ".image-date": {
               "color": "#d5d5d5"
+            },
+            ".icon-text": {
+              "color": "#fc6a20"
             }
           },
           "_name": "footer2",
@@ -2568,6 +2572,9 @@
             },
             ".image-date": {
               "color": "#d5d5d5"
+            },
+            ".icon-text": {
+              "color": "#fc6a20"
             }
           },
           "_name": "footer2",
@@ -3432,6 +3439,9 @@
             },
             ".image-date": {
               "color": "#d5d5d5"
+            },
+            ".icon-text": {
+              "color": "#fc6a20"
             }
           },
           "_name": "footer2",
@@ -4189,6 +4199,9 @@
             },
             ".image-date": {
               "color": "#d5d5d5"
+            },
+            ".icon-text": {
+              "color": "#fc6a20"
             }
           },
           "_name": "footer2",
@@ -4947,6 +4960,9 @@
             },
             ".image-date": {
               "color": "#d5d5d5"
+            },
+            ".icon-text": {
+              "color": "#fc6a20"
             }
           },
           "_name": "footer2",
@@ -5670,6 +5686,9 @@
             },
             ".image-date": {
               "color": "#d5d5d5"
+            },
+            ".icon-text": {
+              "color": "#fc6a20"
             }
           },
           "_name": "footer2",
@@ -6579,6 +6598,9 @@
             },
             ".image-date": {
               "color": "#d5d5d5"
+            },
+            ".icon-text": {
+              "color": "#fc6a20"
             }
           },
           "_name": "footer2",
