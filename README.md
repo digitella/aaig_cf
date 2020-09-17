@@ -1,2 +1,2 @@
-# aaig
-GitHub Pages
+# aaig.cf
+
