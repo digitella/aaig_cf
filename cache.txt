@@ -1,3 +1,11 @@
 <meta http-equiv="Cache-Control" content="public" />
-  <meta http-equiv="Cache-Control" content="proxy-revalidate" />
+<meta http-equiv="Cache-Control" content="proxy-revalidate" />
 <meta http-equiv="Cache-Control" content="max-age=30000"/>
+<link rel="dns-prefetch" href="//static-cdn.spott.ai">
+<link rel="dns-prefetch" href="//cdn.spott.ai">
+<link rel="dns-prefetch" href="//cdn.ampproject.org">
+<link rel="preconnect" href="https://cdn.ampproject.org">
+<link rel="preconnect" href="https://cdn.spott.ai">
+<link rel="prefetch" href="https://www.aaig.cf/assets/images/mbr-1920x1508.jpg">
+<link rel="prefetch" href="https://static-cdn.spott.ai/embed/embed-main.js">
+<link rel="prefetch" href="https://static-cdn.spott.ai/embed/BasicTagsPlugin.js">
