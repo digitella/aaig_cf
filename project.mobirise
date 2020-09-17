@@ -51,7 +51,7 @@
     "imageResize": true,
     "canonical-url": "https://aaig.helyx.ml",
     "cssOptimize": true,
-    "global_header_custom": "<meta http-equiv=\"Pragma\" content=\"private\">\n<meta http-equiv=\"Cache-Control\" content=\"public\" />\n  <meta http-equiv=\"Cache-Control\" content=\"proxy-revalidate\" />\n<meta http-equiv=\"Cache-Control\" content=\"max-age=30000\"/>",
+    "global_header_custom": "<meta http-equiv=\"Pragma\" content=\"public\">\n<meta http-equiv=\"Cache-Control\" content=\"public\" />\n  <meta http-equiv=\"Cache-Control\" content=\"proxy-revalidate\" />\n<meta http-equiv=\"Cache-Control\" content=\"max-age=30000\"/>",
     "PWA": {
       "enabled": false
     },
