@@ -75,7 +75,7 @@
         "title": "",
         "meta_descr": "",
         "header_custom": "<link rel=\"dns-prefetch\" href=\"//static-cdn.spott.ai\">\n<link rel=\"dns-prefetch\" href=\"//cdn.spott.ai\">\n<link rel=\"dns-prefetch\" href=\"//cdn.ampproject.org\">\n<link rel=\"preconnect\" href=\"https://cdn.ampproject.org\">\n<link rel=\"preconnect\" href=\"https://cdn.spott.ai\">\n<link rel=\"prefetch\" href=\"https://www.aaig.cf/assets/images/mbr-1920x1508.jpg\">\n<link rel=\"prefetch\" href=\"https://static-cdn.spott.ai/embed/embed-main.js\">\n<link rel=\"prefetch\" href=\"https://static-cdn.spott.ai/embed/BasicTagsPlugin.js\">\n",
-        "footer_custom": "",
+        "footer_custom": "  <script>\n  // register ServiceWorker, remember to use absolute path!\n  if (navigator.serviceWorker) {\n    navigator.serviceWorker.register('/aaig.cf/sw.js', {scope: '/{repository}/'})\n  }\n  \n  // --- Application code here ---\n  </script>\n  \n  // --- Application code here ---\n  </script>",
         "html_before": ""
       },
       "components": [
