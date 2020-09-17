@@ -9,3 +9,23 @@
 <link rel="prefetch" href="https://www.aaig.cf/assets/images/mbr-1920x1508.jpg">
 <link rel="prefetch" href="https://static-cdn.spott.ai/embed/embed-main.js">
 <link rel="prefetch" href="https://static-cdn.spott.ai/embed/BasicTagsPlugin.js">
+
+-- // --
+Remove https://cdn.ampproject.org/v0/amp-analytics-0.1.js
+
+-- // --
+caching tip 
+https://gist.github.com/kosamari/7c5d1e8449b2fbc97d372675f16b566e
+
+Insert inside <body> tag:
+
+  <script>
+  // register ServiceWorker, remember to use absolute path!
+  if (navigator.serviceWorker) {
+    navigator.serviceWorker.register('/{repository}/sw.js', {scope: '/{repository}/'})
+  }
+  
+  // --- Application code here ---
+  </script>
+  
+  
